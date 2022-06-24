@@ -1,4 +1,4 @@
-# PLOT DISTRIBUTION DATA (Practice Example)
+# PRACTICAL FUNCTION FOR PLOTTING THE DATA DISTRIBUTION FROM DATAFRAME/SERIES (WIHN EXAMPLE)
 <p>In some cases, we need to plot the distribution of the data contained in a DataFrame. For example: In a column of type category. In this <b>Readme.md</b> explains how to use the <b>function_plot_distribution_columns</b> function an exploratory data analysis (EDA). </p>
 
 <p align="center"><img src="figures/fig1.png"
