@@ -54,12 +54,14 @@ def plot_distribution_clm(data_in  #dataframe
         if pst == "v":
             axe_x = clm_name
             axe_y = 'Count'
+            axe_line = 'y'
         else:
             axe_x = 'Count' 
             axe_y = clm_name
+            axe_line = 'x'
 
         ax = sns.barplot( x = axe_x, y = axe_y, data = tmp_dt, label="distribucion", color = '#2258B6')#, ax=ax[0])
-        ax.grid(b =True, which='major', color='black', linewidth = 0.1, axis='x')
+        ax.grid(b =True, which='major', color='black', linewidth = 0.3, axis= axe_line)
         # ax[0].bar_label(ax[0].containers[0]) #add label with value of bar in the graphic # * dont work in VSC
     else:
         #* PLOT BY PERCENTAGE
@@ -67,12 +69,14 @@ def plot_distribution_clm(data_in  #dataframe
         if pst == "v":
             axe_x = clm_name
             axe_y = '(%) of total data'
+            axe_line = 'y'
         else:
             axe_x = '(%) of total data' 
             axe_y = clm_name
+            axe_line = 'x'
 
         ax = sns.barplot( x = axe_x, y = axe_y, data = tmp_dt, label="distribucion", color = '#2258B6')#, ax=ax[0])
-        ax.grid(b =True, which='major', color='black', linewidth = 0.1, axis='x')
+        ax.grid(b =True, which='major', color='black', linewidth = 0.3, axis= axe_line)
         # ax[0].bar_label(ax[0].containers[0]) #add label with value of bar in the graphic # * dont work in VSC
 
     #scale colors
