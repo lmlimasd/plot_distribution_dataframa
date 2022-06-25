@@ -53,3 +53,8 @@ A function designed to facilitate the analysis of the data distribution in a Dat
 +                         ,pst = 'v' #parameter for indicate if plot the graphic in vertical position (h) or horizontal position (h)
 +                         ):
 ``` -->
+
+
+### Example of how to use the function
+
+[Link notebook](https://github.com/lmlimasd/plot_distribution_dataframa/blob/main/Workspace.ipynb)
